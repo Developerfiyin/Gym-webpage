@@ -19,6 +19,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  background-color: var(--primary-color);
 }
 .section__container {
   max-width: var(--max-width);
@@ -69,4 +70,14 @@ a {
   position: absolute;
   box-shadow: 0 0 100px 50px var(--secondary-color);
   z-index: -1;
+}
+
+nav {
+  max-width: var(--max-width);
+  margin: auto;
+  padding: 2rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
 }
