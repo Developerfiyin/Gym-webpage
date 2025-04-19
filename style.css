@@ -33,3 +33,10 @@ body {
   text-align: center;
   color: var(--white);
 }
+
+.section__subheader {
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+  color: var(--text-light);
+}
