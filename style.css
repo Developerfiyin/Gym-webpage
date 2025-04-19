@@ -16,6 +16,16 @@
   margin: 0;
   box-sizing: border-box;
 }
+
 body {
   font-family: "Poppins", sans-serif;
+}
+
+ul > li {
+  gap: 2rem;
+  columns: 2;
+}
+li > a {
+  gap: 2rem;
+  columns: 2;
 }
