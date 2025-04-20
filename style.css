@@ -91,3 +91,18 @@ nav {
   align-items: center;
   gap: 3rem;
 }
+.links a {
+  position: absolute;
+  padding-bottom: 0.75rem;
+  color: var(--white);
+}
+.links s::after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 0;
+  left: 0;
+  bottom: 0;
+  background-color: var(--secondary-color);
+  transition: 0.3s;
+}
