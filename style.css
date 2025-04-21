@@ -165,3 +165,14 @@ nav {
 .header__image {
   position: relative;
 }
+
+.header__image::before {
+  content: "o";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 40rem;
+  line-height: 20rem;
+  color: var(--secondary-color);
+}
