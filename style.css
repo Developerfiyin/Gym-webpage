@@ -144,3 +144,11 @@ nav {
   font-weight: 600;
   color: var(--secondary-color);
 }
+
+.header__content h1 {
+  margin-bottom: 1rem;
+  font-size: 5rem;
+  font-weight: 700;
+  line-height: 6rem;
+  color: var(--white);
+}
