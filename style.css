@@ -156,3 +156,12 @@ nav {
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke: 1px var(--white);
 }
+
+.header__content p {
+  margin-bottom: 2rem;
+  color: var(--text-light);
+}
+
+.header__image {
+  position: relative;
+}
