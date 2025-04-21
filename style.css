@@ -119,3 +119,15 @@ nav {
   align-items: center;
   gap: 2rem;
 }
+
+.header__container::before {
+  content: "FITNESS";
+  position: absolute;
+  bottom: 5rem;
+  right: 2rem;
+  font-size: 10rem;
+  font-weight: 700;
+  color: var(--white);
+  opacity: 0.05s;
+  z-index: -1;
+}
