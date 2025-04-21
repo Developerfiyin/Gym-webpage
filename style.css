@@ -110,3 +110,12 @@ nav {
 .link a:hover::after {
   width: 50%;
 }
+
+.header__container {
+  position: relative;
+  padding-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(2, ifr);
+  align-items: center;
+  gap: 2rem;
+}
