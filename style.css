@@ -152,3 +152,7 @@ nav {
   line-height: 6rem;
   color: var(--white);
 }
+.header__content h1 span {
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px var(--white);
+}
