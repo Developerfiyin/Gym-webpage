@@ -191,3 +191,8 @@ nav {
   justify-content: space-between;
   gap: 2rem;
 }
+.explore__nav {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
