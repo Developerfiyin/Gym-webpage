@@ -231,3 +231,13 @@ nav {
   background-color: var(--primary-color-extra-light);
   border-color: var(--secondary-color);
 }
+
+.explore__card span {
+  display: inline-block;
+  padding: 2px 9px;
+  margin-bottom: 1rem;
+  font-size: 1.75rem;
+  color: var(--white);
+  background-color: var(--secondary-color);
+  border-radius: 5px;
+}
