@@ -278,3 +278,11 @@ nav {
   max-width: 500px;
   border-radius: 10px;
 }
+
+.class__image .class__img-2 {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  max-width: 300px;
+  border-radius: 10px;
+}
