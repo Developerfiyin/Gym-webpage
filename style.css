@@ -295,3 +295,8 @@ nav {
   text-align: left;
   max-width: 400px;
 }
+
+.class__content p {
+  margin-bottom: 4rem;
+  color: var(--text-light);
+}
