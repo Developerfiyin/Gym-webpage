@@ -253,3 +253,11 @@ nav {
   margin-bottom: 1rem;
   color: var(--text-light);
 }
+
+.explore__card a {
+  color: var(--white);
+  transition: 0.3s;
+}
+.explore__card a:hover {
+  color: var(--secondary-color);
+}
