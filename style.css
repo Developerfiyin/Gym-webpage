@@ -218,3 +218,11 @@ nav {
   grid-template-columns: repeat(4, ifr);
   gap: 2rem;
 }
+
+.explore__card {
+  padding: 1rem;
+  background-color: var(--primary-color-light);
+  border: 2px solid transparent;
+  border-radius: 10px;
+  transition: 0.3s;
+}
