@@ -211,3 +211,10 @@ nav {
   color: var(--secondary-color);
   border-radius: var(--secondary-color);
 }
+
+.explore__grid {
+  margin-top: 4rem;
+  display: grid;
+  grid-template-columns: repeat(4, ifr);
+  gap: 2rem;
+}
