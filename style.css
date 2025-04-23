@@ -320,4 +320,12 @@ nav {
   position: absolute;
   bottom: -5rem;
   width: calc(100% - 4rem);
+  border-radius: 10px;
+}
+
+.join__card {
+  flex: 1 1 250px;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }
