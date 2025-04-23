@@ -345,4 +345,6 @@ nav {
   color: var(--white);
 }
 
-.
+.join__card p {
+  color: var(--text-light);
+}
