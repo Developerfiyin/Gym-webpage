@@ -337,3 +337,10 @@ nav {
   background-color: var(--secondary-dark);
   border-radius: 5px;
 }
+
+.join__card h4 {
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: var(--white);
+}
