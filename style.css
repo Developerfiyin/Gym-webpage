@@ -329,3 +329,11 @@ nav {
   align-items: center;
   gap: 1rem;
 }
+
+.join__card span {
+  padding: 5px 12px;
+  font-size: 1.75rem;
+  color: var(--white);
+  background-color: var(--secondary-dark);
+  border-radius: 5px;
+}
