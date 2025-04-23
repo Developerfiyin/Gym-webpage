@@ -300,7 +300,24 @@ nav {
   margin-bottom: 4rem;
   color: var(--text-light);
 }
+
 .join__image {
   margin-top: 4rem;
   position: relative;
+}
+
+.join__image img {
+  border-radius: 10px;
+}
+
+.join__grid {
+  gap: 2rem;
+  background-color: var(--primary-color-light);
+  flex-wrap: wrap;
+  display: flex;
+  padding: 2rem;
+  margin: 0 2rem;
+  position: absolute;
+  bottom: -5rem;
+  width: calc(100% - 4rem);
 }
