@@ -364,3 +364,13 @@ nav {
   transition: 0.3s;
   border: 2px solid transparent;
 }
+
+.price__card:hover {
+  background-color: var(--primary-color-extra-light);
+  border-color: var(--secondary-color);
+}
+
+.price__card__content {
+  flex: 1;
+  margin-bottom: 2rem;
+}
