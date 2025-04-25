@@ -82,7 +82,7 @@ nav {
   gap: 2rem;
 }
 
-.nav_logo {
+.nav__logo {
   max-width: 150px;
 }
 .nav__links {
@@ -124,12 +124,12 @@ nav {
   content: "FITNESS";
   position: absolute;
   bottom: 5rem;
-  right: 2rem;
+  right: 20rem;
   font-size: 10rem;
   font-weight: 700;
   line-height: 7rem;
   color: var(--white);
-  opacity: 0.05s;
+  opacity: 0.05;
   z-index: -1;
 }
 
