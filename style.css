@@ -394,3 +394,8 @@ nav {
   margin-bottom: 0.75rem;
   color: var(--white);
 }
+.price__card p i {
+  margin-right: 0.5rem;
+  font-size: 1.2rem;
+  color: var(--secondary-color);
+}
