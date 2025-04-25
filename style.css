@@ -390,3 +390,7 @@ nav {
   color: var(--white);
   border-bottom: 2px solid var(--white);
 }
+.price__card p {
+  margin-bottom: 0.75rem;
+  color: var(--white);
+}
