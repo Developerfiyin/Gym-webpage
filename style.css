@@ -348,3 +348,9 @@ nav {
 .join__card p {
   color: var(--text-light);
 }
+.price__grid {
+  padding: 3rem 2rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
