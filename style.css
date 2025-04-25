@@ -349,8 +349,18 @@ nav {
   color: var(--text-light);
 }
 .price__grid {
-  padding: 3rem 2rem;
+  margin-top: 4rem;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
+}
+
+.price__card {
+  padding: 3rem 2rem;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--primary-color-light);
+  border-radius: 10px;
+  transition: 0.3s;
+  border: 2px solid transparent;
 }
