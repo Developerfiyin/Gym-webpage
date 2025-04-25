@@ -405,3 +405,8 @@ nav {
   background-color: transparent;
   border: 2px solid var(--secondary-color);
 }
+
+.price__btn:hover {
+  color: var(--white);
+  background-color: var(--secondary-color);
+}
