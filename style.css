@@ -545,7 +545,7 @@ nav {
   color: var(--white);
 }
 
-@media (width > 900px) {
+@media (width < 900px) {
   .nav__links {
     display: none;
   }
@@ -561,5 +561,17 @@ nav {
   }
   .class__image {
     min-height: 500px;
+  }
+  .class__container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .price__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .review__container {
+    gap: 2rem;
+  }
+  .footer__container {
+    grid-template-columns: 1fr 200px;
   }
 }
