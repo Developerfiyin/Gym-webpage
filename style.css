@@ -454,3 +454,9 @@ nav {
   display: flex;
   align-items: center;
 }
+
+.review__memner {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
