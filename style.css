@@ -435,3 +435,9 @@ nav {
   font-weight: 600;
   color: var(--text-light);
 }
+
+.review__content p {
+  max-width: 800px;
+  margin-bottom: 2rem;
+  color: var(--text-light);
+}
