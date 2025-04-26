@@ -536,3 +536,11 @@ nav {
 .footer__col > a:hover {
   color: var(--secondary-color);
 }
+
+.footer__bar {
+  max-width: var(--max-width);
+  margin: auto;
+  padding: 1rem;
+  font-size: 0.8rem;
+  color: var(--white);
+}
