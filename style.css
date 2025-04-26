@@ -465,3 +465,12 @@ nav {
   max-width: 60px;
   border-radius: 100%;
 }
+.review__member__details h4 {
+  margin-bottom: 0;
+}
+
+.review__nav {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
