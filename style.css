@@ -496,3 +496,7 @@ nav {
   gap: 2rem;
   columns: 2;
 }
+.footer__logo {
+  max-width: 150px;
+  margin-bottom: 2rem;
+}
