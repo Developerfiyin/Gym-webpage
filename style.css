@@ -480,3 +480,19 @@ nav {
   color: var(--secondary-color);
   cursor: pointer;
 }
+
+.footer__container {
+  position: relative;
+  display: grid;
+  grid-template-columns: 400px repeat(3, 1fr);
+}
+.footer__blur {
+  bottom: 0;
+  right: 0;
+}
+.footer__col {
+  display: grid;
+  position: absolute;
+  gap: 2rem;
+  columns: 2;
+}
