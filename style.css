@@ -410,3 +410,12 @@ nav {
   color: var(--white);
   background-color: var(--secondary-color);
 }
+
+.review {
+  background-color: var(--primary-color-light);
+}
+
+.review__container {
+  display: flex;
+  gap: 2rem;
+}
