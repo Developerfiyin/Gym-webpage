@@ -455,8 +455,13 @@ nav {
   align-items: center;
 }
 
-.review__memner {
+.review__member {
   display: flex;
   align-items: flex-start;
   gap: 1rem;
+}
+
+.review__member img {
+  max-width: 60px;
+  border-radius: 100%;
 }
