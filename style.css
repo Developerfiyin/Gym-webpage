@@ -474,3 +474,9 @@ nav {
   align-items: center;
   gap: 2rem;
 }
+
+.review__nav span {
+  font-size: 2rem;
+  color: var(--secondary-color);
+  cursor: pointer;
+}
