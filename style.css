@@ -490,13 +490,18 @@ nav {
   bottom: 0;
   right: 0;
 }
-.footer__col {
-  display: grid;
-  position: absolute;
-  gap: 2rem;
-  columns: 2;
-}
+
 .footer__logo {
   max-width: 150px;
   margin-bottom: 2rem;
+}
+.footer__col p {
+  margin-bottom: 2rem;
+  color: var(--text-light);
+}
+
+.footer__socials {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }
