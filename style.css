@@ -441,3 +441,16 @@ nav {
   margin-bottom: 2rem;
   color: var(--text-light);
 }
+
+.review__rating span {
+  font-size: 1.5rem;
+  color: var(--secondary-color);
+}
+
+.review__footer {
+  margin-top: 4rem;
+  gap: 2rem;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
